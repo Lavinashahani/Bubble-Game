@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 199, 145);
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+#paneltop{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 0px 20%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(66, 88, 66);
+}
+
+.elem{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(64, 122, 57);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#panelbotm{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100% - 100px);
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(72, 104, 72)
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(41, 58, 41)
+}
